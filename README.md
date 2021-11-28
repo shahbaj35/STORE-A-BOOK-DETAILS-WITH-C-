@@ -14,31 +14,3 @@ Example Program in C++ Using file handling to perform following operations:
 
 5)      Update record
 
-
-
-#include<iostream>
-#include<stdio.h>
-#include<fstream>
-#include<iomanip>
-#include<string.h>
-using namespace std;
-
-int menu();
-class Book
-{
-      private:
-              int bookid;
-              char title[20];
-              float price;
-      protected:
-                int allotbookid();
-                void showheader();
-      public:
-             void getbook();
-             void showbook();
-             void addbook();
-             void viewbook();
-             void searchbook();
-             void deletebook();
-             void modifybook();
-}
